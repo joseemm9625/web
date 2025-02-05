@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Me das tu número?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>hola anto</h1>
+        <p>no se q poner</p>
+        <p>pero me pasas tu numero porfa? SJKAJ </p>
+        <div class="heart" onclick="showForm()">❤️</div>
+        <form id="numberForm" class="hidden" action="https://formspree.io/f/xjkgovel" method="POST">
+            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Escribe tu número aquí" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <p class="message" id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
